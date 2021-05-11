@@ -1,0 +1,20 @@
+load Image1.jpg
+blur
+sepia
+save Image1_blur_sepia.jpg
+load Image1.jpg
+dither 8
+grayscale
+save Image1_dither_grayscale.jpg
+load Image1.jpg
+reduce 8
+sharpen
+save Image1_reduce_sharpen.jpg
+load Image1.jpg
+mosaic 1100
+save Image1_mosaic.jpg
+load Image1.jpg
+pixelate 100
+pattern
+save Image1_pixelate.jpg
+save Image1-pixelated-pattern.txt

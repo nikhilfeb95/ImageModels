@@ -1,0 +1,12 @@
+load goat.png
+dither 8
+save goat-dither.png
+load goat.png
+sharpen
+sepia
+save goat-sharpen.png
+load goat.png
+pixelate 200
+save goat-pixelated.png
+pattern
+save goat-pattern-pixelated.txt
